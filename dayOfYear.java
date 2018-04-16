@@ -1,4 +1,7 @@
 //Sample java code to practice performing code review using Gerrit.
+
+//Determines the day of the year, given the month, day of the month, and year.
+//For instance, January 3, 2018 is day 3 of the year.
 public static int dayOfYear(int month, int dayOfMonth, int year) {
     if (month == 2) {
         dayOfMonth += 31;
